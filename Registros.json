@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "681ac9d202a3b9bd16ef53f9"
+  },
+  "nombre": "Blanca Monica",
+  "apellido": "Ventura Torres",
+  "email": "blanca.ventura@gmail.com",
+  "usuario": "blanca.ventura",
+  "password": "bV1990$",
+  "telefono": "7858-1082",
+  "activo": true,
+  "rol": "administrador"
+},
+{
+  "_id": {
+    "$oid": "681acc0702a3b9bd16ef53ff"
+  },
+  "nombre": "Johana Xiomara",
+  "apellido": "Robles Diaz",
+  "email": "johana.robles@gmail.com",
+  "usuario": "johana.robles",
+  "password": "Jr1989$",
+  "telefono": "7856-1083",
+  "activo": true,
+  "rol": "usuario"
+},
+{
+  "_id": {
+    "$oid": "681acc4702a3b9bd16ef5400"
+  },
+  "nombre": "Joel Armando",
+  "apellido": "Alvarado Aguilar",
+  "email": "joel.alvarado@gmail.com",
+  "usuario": "joel.alvarado",
+  "password": "Ja1991$",
+  "telefono": "7756-1183",
+  "activo": true,
+  "rol": "usuario"
+}]
