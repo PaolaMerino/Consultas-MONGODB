@@ -1,39 +1,24 @@
 [{
   "_id": {
-    "$oid": "681ac9d202a3b9bd16ef53f9"
+    "$oid": "681c20e719f2a073a1b5f899"
   },
-  "nombre": "Blanca Monica",
-  "apellido": "Ventura Torres",
+  "nombre": "Blanca Maribel",
+  "apellido": "Ventura Larios",
   "email": "blanca.ventura@gmail.com",
   "usuario": "blanca.ventura",
-  "password": "bV1990$",
-  "telefono": "7858-1082",
-  "activo": true,
-  "rol": "administrador"
+  "contraseña": "bV1929$",
+  "telefono": "7582-9009",
+  "activo": true
 },
 {
   "_id": {
-    "$oid": "681acc0702a3b9bd16ef53ff"
+    "$oid": "681c223ff635d27f7ee4f80f"
   },
-  "nombre": "Johana Xiomara",
-  "apellido": "Robles Diaz",
-  "email": "johana.robles@gmail.com",
-  "usuario": "johana.robles",
-  "password": "Jr1989$",
-  "telefono": "7856-1083",
-  "activo": true,
-  "rol": "usuario"
-},
-{
-  "_id": {
-    "$oid": "681acc4702a3b9bd16ef5400"
-  },
-  "nombre": "Joel Armando",
-  "apellido": "Alvarado Aguilar",
-  "email": "joel.alvarado@gmail.com",
-  "usuario": "joel.alvarado",
-  "password": "Ja1991$",
-  "telefono": "7756-1183",
-  "activo": true,
-  "rol": "usuario"
+  "nombre": "Fernando Josue",
+  "apellido": "Granados Villalovo",
+  "email": "fernando.granados@gmail.com",
+  "usuario": "fernando.granados",
+  "contraseña": "fG1829$",
+  "telefono": "7572-9909",
+  "activo": true
 }]
