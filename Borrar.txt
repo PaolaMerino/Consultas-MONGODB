@@ -1,0 +1,2 @@
+planilla> db.usuarios.deleteOne({nombre:'Fernando Josue'})
+{ acknowledged: true, deletedCount: 1 }

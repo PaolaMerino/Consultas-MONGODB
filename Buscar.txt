@@ -1,0 +1,38 @@
+planilla> db.usuarios.find()
+[
+  {
+    _id: ObjectId('681c20e719f2a073a1b5f899'),
+    nombre: 'Blanca Maribel',
+    apellido: 'Ventura Larios',
+    email: 'blanca.ventura@gmail.com',
+    usuario: 'blanca.ventura',
+    'contraseña': 'bV1929$',
+    telefono: '7582-9009',
+    activo: true
+  },
+  {
+    _id: ObjectId('681c223ff635d27f7ee4f80f'),
+    nombre: 'Fernando Josue',
+    apellido: 'Granados Villalovo',
+    email: 'fernando.granados@gmail.com',
+    usuario: 'fernando.granados',
+    'contraseña': 'fG1829$',
+    telefono: '7572-9909',
+    activo: true
+  }
+]
+planilla> db.usuarios.find({nombre: 'Blanca Maribel'}
+... )
+[
+  {
+    _id: ObjectId('681c20e719f2a073a1b5f899'),
+    nombre: 'Blanca Maribel',
+    apellido: 'Ventura Larios',
+    email: 'blanca.ventura@gmail.com',
+    usuario: 'blanca.ventura',
+    'contraseña': 'bV1929$',
+    telefono: '7582-9009',
+    activo: true
+  }
+]
+planilla>

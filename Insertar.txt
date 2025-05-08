@@ -1,0 +1,11 @@
+test> use planilla
+switched to db planilla
+planilla> db.createCollection ('usuarios')
+{ ok: 1 }
+planilla> show collections
+usuarios
+planilla> db.usuarios.insertOne({nombre:'Blanca Maribel', apellido: 'Ventura Larios',email: 'blanca.ventura@gmail.com',usuario: 'blanca.ventura', contraseña: 'bV1929$', telefono: '7582-9009', activo: true})
+{
+  acknowledged: true,
+  insertedId: ObjectId('681c20e719f2a073a1b5f899')
+}

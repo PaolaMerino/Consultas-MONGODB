@@ -1,0 +1,34 @@
+planilla> db.usuarios.find({ nombre: 'Blanca Maribel' } )
+[
+  {cknowledged: true,
+    _id: ObjectId('681c20e719f2a073a1b5f899'),
+    nombre: 'Blanca Maribel',
+    apellido: 'Ventura Larios',
+    email: 'blanca.ventura@gmail.com',
+    usuario: 'blanca.ventura',
+    'contraseña': 'bV1929$',
+    telefono: '7582-9009',
+    activo: true
+  }
+]
+planilla> db.usuarios.updateOne({nombre: 'Blanca Maribel'}, { $set: {apellido: 'Martinez Andrade'}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+planilla> db.usuarios.find({ nombre: 'Blanca Maribel' } )
+[
+  {
+    _id: ObjectId('681c20e719f2a073a1b5f899'),
+    nombre: 'Blanca Maribel',
+    apellido: 'Martinez Andrade',
+    email: 'blanca.ventura@gmail.com',
+    usuario: 'blanca.ventura',
+    'contraseña': 'bV1929$',
+    telefono: '7582-9009',
+    activo: true
+  }
+]
